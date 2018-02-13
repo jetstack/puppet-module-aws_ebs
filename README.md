@@ -33,6 +33,12 @@ actually attach & mount a volume you have to use the defined type
 * Type: `String`
 * Default: `'/etc/systemd/system'`
 
+##### `packages`
+
+* list of packages to install
+* Type: `Array`
+* Default: `[ 'curl', 'gawk', 'util-linux', 'awscli', 'xfsprogs' ]`
+
 #### Examples
 
 ##### Declaring the base class
